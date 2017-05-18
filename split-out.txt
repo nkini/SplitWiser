@@ -1,0 +1,33 @@
+$ python3 SplitWiser.py bill.txt 
+Welcome to SplitWiser
+Overview: 
+{'ani': [9.49], 'p': [5.49, 7.99], 'ank': [9.5], 'vi': [5.49, 3.49], 'n': [7.99, 0.5], 've': [9.49]}
+Enter Tax: 5.37
+Enter gratuity: 10.70
+Splits:
+ani pays 12.056116439508665
+p pays 17.12502103314824
+ank pays 12.06882046104661
+vi pays 11.408211341073532
+n pays 10.785714285714286
+ve pays 12.056116439508665
+
+Tally
+Bill total : 75.5
+
+
+$ python3 SplitWiser.py bill2.txt
+Welcome to SplitWiser
+Overview: 
+{'ag': [4.75, 4.99], 'v': [9.0, 2.9966666666666666, 9.94, 5.489999999999999, 4.75], 'p': [9.0, 2.9966666666666666, 9.49], 'n': [11.99, 5.489999999999999], 'aa': [4.75, 4.75, 2.9966666666666666, 10.94, 5.489999999999999]}
+Enter Tax: 9.89
+Enter gratuity: 0
+Splits:
+v pays 35.07464711774883
+ag pays 10.617229760495402
+p pays 23.421855932975138
+n pays 19.0543302067207
+aa pays 31.53193698205992
+
+Tally
+Bill total : 119.69999999999997
